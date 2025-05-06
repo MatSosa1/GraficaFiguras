@@ -48,7 +48,7 @@
             this.btnRectangle.Location = new System.Drawing.Point(563, 70);
             this.btnRectangle.Name = "btnRectangle";
             this.btnRectangle.Size = new System.Drawing.Size(125, 25);
-            this.btnRectangle.TabIndex = 0;
+            this.btnRectangle.TabIndex = 2;
             this.btnRectangle.Text = "Rectángulo";
             this.btnRectangle.UseVisualStyleBackColor = true;
             this.btnRectangle.Click += new System.EventHandler(this.btnRectangle_Click);
@@ -68,7 +68,7 @@
             this.btnTriangle.Location = new System.Drawing.Point(106, 70);
             this.btnTriangle.Name = "btnTriangle";
             this.btnTriangle.Size = new System.Drawing.Size(125, 25);
-            this.btnTriangle.TabIndex = 2;
+            this.btnTriangle.TabIndex = 0;
             this.btnTriangle.Text = "Triángulo";
             this.btnTriangle.UseVisualStyleBackColor = true;
             this.btnTriangle.Click += new System.EventHandler(this.btnTriangle_Click);
@@ -88,7 +88,7 @@
             this.btnTrapeze.Location = new System.Drawing.Point(106, 249);
             this.btnTrapeze.Name = "btnTrapeze";
             this.btnTrapeze.Size = new System.Drawing.Size(125, 25);
-            this.btnTrapeze.TabIndex = 4;
+            this.btnTrapeze.TabIndex = 6;
             this.btnTrapeze.Text = "Trapecio";
             this.btnTrapeze.UseVisualStyleBackColor = true;
             this.btnTrapeze.Click += new System.EventHandler(this.btnTrapeze_Click);
@@ -98,7 +98,7 @@
             this.btnRhomboid.Location = new System.Drawing.Point(106, 338);
             this.btnRhomboid.Name = "btnRhomboid";
             this.btnRhomboid.Size = new System.Drawing.Size(125, 25);
-            this.btnRhomboid.TabIndex = 5;
+            this.btnRhomboid.TabIndex = 9;
             this.btnRhomboid.Text = "Romboide";
             this.btnRhomboid.UseVisualStyleBackColor = true;
             this.btnRhomboid.Click += new System.EventHandler(this.btnRhomboid_Click);
@@ -108,7 +108,7 @@
             this.btnEllipse.Location = new System.Drawing.Point(333, 160);
             this.btnEllipse.Name = "btnEllipse";
             this.btnEllipse.Size = new System.Drawing.Size(125, 25);
-            this.btnEllipse.TabIndex = 6;
+            this.btnEllipse.TabIndex = 4;
             this.btnEllipse.Text = "Elipse";
             this.btnEllipse.UseVisualStyleBackColor = true;
             this.btnEllipse.Click += new System.EventHandler(this.btnEllipse_Click);
@@ -128,7 +128,7 @@
             this.btnDeltoid.Location = new System.Drawing.Point(333, 338);
             this.btnDeltoid.Name = "btnDeltoid";
             this.btnDeltoid.Size = new System.Drawing.Size(125, 25);
-            this.btnDeltoid.TabIndex = 8;
+            this.btnDeltoid.TabIndex = 10;
             this.btnDeltoid.Text = "Deltoide";
             this.btnDeltoid.UseVisualStyleBackColor = true;
             this.btnDeltoid.Click += new System.EventHandler(this.btnDeltoid_Click);
@@ -138,7 +138,7 @@
             this.btnSemicircle.Location = new System.Drawing.Point(563, 160);
             this.btnSemicircle.Name = "btnSemicircle";
             this.btnSemicircle.Size = new System.Drawing.Size(125, 25);
-            this.btnSemicircle.TabIndex = 9;
+            this.btnSemicircle.TabIndex = 5;
             this.btnSemicircle.Text = "Semicírculo";
             this.btnSemicircle.UseVisualStyleBackColor = true;
             this.btnSemicircle.Click += new System.EventHandler(this.btnSemicircle_Click);
@@ -148,7 +148,7 @@
             this.btnRhombus.Location = new System.Drawing.Point(563, 249);
             this.btnRhombus.Name = "btnRhombus";
             this.btnRhombus.Size = new System.Drawing.Size(125, 25);
-            this.btnRhombus.TabIndex = 10;
+            this.btnRhombus.TabIndex = 8;
             this.btnRhombus.Text = "Rombo";
             this.btnRhombus.UseVisualStyleBackColor = true;
             this.btnRhombus.Click += new System.EventHandler(this.btnRhombus_Click);
