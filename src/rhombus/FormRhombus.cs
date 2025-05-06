@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace FigurasTarea.src.rhombus
 {
-    public partial class FormRhombus : xdForm
+    public partial class FormRhombus : FormShape
     {
         private Rhombus r;
 
@@ -21,12 +21,19 @@ namespace FigurasTarea.src.rhombus
 
         public override void btnCalc_Click(object sender, EventArgs e)
         {
+            if (!this.CheckBoxes()) return;
+
             this.r = new Rhombus(float.Parse(this.txtMajorDiag.Text), float.Parse(this.txtMinorDiag.Text));
 
             this.txtPerimeter.Text = this.r.GetPerimeter().ToString();
             this.txtArea.Text = this.r.GetArea().ToString();
 
             this.graph.DrawPolygon(this.pen, this.r.GetPoints());
+        }
+
+        protected override bool CheckBoxes()
+        {
+            return IsUsefulNumber(txtMajorDiag.Text) & IsUsefulNumber(txtMinorDiag.Text);
         }
     }
 }

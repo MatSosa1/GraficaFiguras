@@ -11,7 +11,7 @@ using FigurasTarea.src;
 
 namespace FigurasTarea.src.rectangle
 {
-    public partial class FormRectangle : xdForm
+    public partial class FormRectangle : FormShape
     {
         private Rectangle rectangle;
 
@@ -22,12 +22,19 @@ namespace FigurasTarea.src.rectangle
 
         public override void btnCalc_Click(object sender, EventArgs e)
         {
+            if (!this.CheckBoxes()) return;
+
             this.rectangle = new Rectangle(float.Parse(this.txtWidth.Text), float.Parse(this.txtHeight.Text));
 
             this.txtPerimeter.Text = this.rectangle.GetPerimeter().ToString();
             this.txtArea.Text = this.rectangle.GetArea().ToString();
 
             this.graph.DrawPolygon(this.pen, this.rectangle.GetPoints());
+        }
+
+        protected override bool CheckBoxes()
+        {
+            return IsUsefulNumber(txtWidth.Text) & IsUsefulNumber(txtHeight.Text);
         }
     }
 }

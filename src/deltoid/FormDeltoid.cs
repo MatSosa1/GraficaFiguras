@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace FigurasTarea.src.deltoid
 {
-    public partial class FormDeltoid : xdForm
+    public partial class FormDeltoid : FormShape
     {
         private Deltoid d;
 
@@ -21,12 +21,19 @@ namespace FigurasTarea.src.deltoid
 
         public override void btnCalc_Click(object sender, EventArgs e)
         {
+            if (!this.CheckBoxes()) return;
+
             this.d = new Deltoid(float.Parse(this.txtHeight.Text), float.Parse(this.txtMajorSide.Text), float.Parse(this.txtMinorSide.Text));
 
             this.txtPerimeter.Text = this.d.GetPerimeter().ToString();
             this.txtArea.Text = this.d.GetArea().ToString();
 
             this.graph.DrawPolygon(this.pen, this.d.GetPoints());
+        }
+
+        protected override bool CheckBoxes()
+        {
+            return IsUsefulNumber(txtHeight.Text) & IsUsefulNumber(txtMajorSide.Text) & IsUsefulNumber(txtMinorSide.Text);
         }
     }
 }

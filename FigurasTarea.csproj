@@ -145,12 +145,6 @@
       <DependentUpon>FormTriangle.cs</DependentUpon>
     </Compile>
     <Compile Include="src\triangle\Triangle.cs" />
-    <Compile Include="src\xdForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="src\xdForm.Designer.cs">
-      <DependentUpon>xdForm.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -212,6 +206,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include=".gitignore" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

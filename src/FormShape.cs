@@ -29,5 +29,16 @@ namespace FigurasTarea.src
         {
             this.picCanvas.Image = null;
         }
+
+        protected bool IsUsefulNumber(String text)
+        {
+            int x;
+
+            if (!int.TryParse(text, out x)) return false;
+
+            return x >= 0;
+        }
+
+        protected abstract bool CheckBoxes();
     }
 }

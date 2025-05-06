@@ -22,12 +22,19 @@ namespace FigurasTarea.src.triangle
 
         public override void btnCalc_Click(object sender, EventArgs e)
         {
+            if (!this.CheckBoxes()) return;
+
             this.triangle = new Triangle(float.Parse(this.textBox1.Text));
 
             this.txtPerimeter.Text = this.triangle.GetPerimeter().ToString();
             this.txtArea.Text = this.triangle.GetArea().ToString();
 
             this.graph.DrawPolygon(this.pen, this.triangle.GetPoints());
+        }
+
+        protected override bool CheckBoxes()
+        {
+            return IsUsefulNumber(textBox1.Text);
         }
     }
 }

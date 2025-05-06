@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace FigurasTarea.src.semicircle
 {
-    public partial class FormSemicircle : xdForm
+    public partial class FormSemicircle : FormShape
     {
         private Semicircle semi;
 
@@ -21,6 +21,8 @@ namespace FigurasTarea.src.semicircle
 
         public override void btnCalc_Click(object sender, EventArgs e)
         {
+            if (!this.CheckBoxes()) return;
+
             this.semi = new Semicircle(float.Parse(this.txtRadius.Text));
 
             this.txtPerimeter.Text = this.semi.GetPerimeter().ToString();
@@ -30,6 +32,11 @@ namespace FigurasTarea.src.semicircle
 
             this.graph.DrawArc(this.pen, 0, 0, r * 4, r * 2, 180, 180);
             this.graph.DrawLine(this.pen, new PointF(4 * r, r), new PointF(0, r));
+        }
+
+        protected override bool CheckBoxes()
+        {
+            return IsUsefulNumber(txtRadius.Text);
         }
     }
 }

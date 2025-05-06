@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace FigurasTarea.src.circle
 {
-    public partial class FormCircle : xdForm
+    public partial class FormCircle : FormShape
     {
         private Circle circle;
 
@@ -21,12 +21,19 @@ namespace FigurasTarea.src.circle
 
         public override void btnCalc_Click(object sender, EventArgs e)
         {
+            if (!this.CheckBoxes()) return;
+
             this.circle = new Circle(float.Parse(this.txtRadius.Text));
 
             this.txtPerimeter.Text = this.circle.GetPerimeter().ToString();
             this.txtArea.Text = this.circle.GetArea().ToString();
 
             this.graph.DrawEllipse(this.pen, 0, 0, this.circle.GetRadius() * 2, this.circle.GetRadius() * 2);
+        }
+
+        protected override bool CheckBoxes()
+        {
+            return IsUsefulNumber(txtRadius.Text);
         }
     }
 }

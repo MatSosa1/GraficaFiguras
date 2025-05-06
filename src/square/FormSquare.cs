@@ -21,12 +21,19 @@ namespace FigurasTarea.src.square
 
         public override void btnCalc_Click(object sender, EventArgs e)
         {
+            if (!this.CheckBoxes()) return;
+
             this.figura = new Square(float.Parse(this.textBox1.Text));
 
             this.txtPerimeter.Text = this.figura.GetPerimeter().ToString();
             this.txtArea.Text = this.figura.GetArea().ToString();
 
             this.graph.DrawPolygon(this.pen, this.figura.GetPoints());
+        }
+
+        protected override bool CheckBoxes()
+        {
+            return IsUsefulNumber(textBox1.Text);
         }
     }
 }
