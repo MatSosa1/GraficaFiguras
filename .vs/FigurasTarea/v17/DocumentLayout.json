@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "D:\\ESPE\\Grafica\\FigurasTarea\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C3A3E1A-30CA-4CBE-99C1-DE37B010A51E}|FigurasTarea.csproj|d:\\espe\\grafica\\figurastarea\\src\\trapeze\\formtrapeze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C3A3E1A-30CA-4CBE-99C1-DE37B010A51E}|FigurasTarea.csproj|solutionrelative:src\\trapeze\\formtrapeze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C3A3E1A-30CA-4CBE-99C1-DE37B010A51E}|FigurasTarea.csproj|d:\\espe\\grafica\\figurastarea\\src\\square\\formsquare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C3A3E1A-30CA-4CBE-99C1-DE37B010A51E}|FigurasTarea.csproj|solutionrelative:src\\square\\formsquare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C3A3E1A-30CA-4CBE-99C1-DE37B010A51E}|FigurasTarea.csproj|d:\\espe\\grafica\\figurastarea\\src\\triangle\\formtriangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C3A3E1A-30CA-4CBE-99C1-DE37B010A51E}|FigurasTarea.csproj|solutionrelative:src\\triangle\\formtriangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C3A3E1A-30CA-4CBE-99C1-DE37B010A51E}|FigurasTarea.csproj|d:\\espe\\grafica\\figurastarea\\src\\trapezoid\\formtrapezoid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C3A3E1A-30CA-4CBE-99C1-DE37B010A51E}|FigurasTarea.csproj|solutionrelative:src\\trapezoid\\formtrapezoid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C3A3E1A-30CA-4CBE-99C1-DE37B010A51E}|FigurasTarea.csproj|d:\\espe\\grafica\\figurastarea\\src\\star\\star.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C3A3E1A-30CA-4CBE-99C1-DE37B010A51E}|FigurasTarea.csproj|solutionrelative:src\\star\\star.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0C3A3E1A-30CA-4CBE-99C1-DE37B010A51E}|FigurasTarea.csproj|d:\\espe\\grafica\\figurastarea\\src\\star\\formstar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,69 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormSquare.cs",
-              "DocumentMoniker": "D:\\ESPE\\Grafica\\FigurasTarea\\src\\square\\FormSquare.cs",
-              "RelativeDocumentMoniker": "src\\square\\FormSquare.cs",
-              "ToolTip": "D:\\ESPE\\Grafica\\FigurasTarea\\src\\square\\FormSquare.cs",
-              "RelativeToolTip": "src\\square\\FormSquare.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAD4vxcAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T22:36:39.707Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormTriangle.cs",
-              "DocumentMoniker": "D:\\ESPE\\Grafica\\FigurasTarea\\src\\triangle\\FormTriangle.cs",
-              "RelativeDocumentMoniker": "src\\triangle\\FormTriangle.cs",
-              "ToolTip": "D:\\ESPE\\Grafica\\FigurasTarea\\src\\triangle\\FormTriangle.cs",
-              "RelativeToolTip": "src\\triangle\\FormTriangle.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAD4vxgAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T22:36:07.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormTrapezoid.cs",
-              "DocumentMoniker": "D:\\ESPE\\Grafica\\FigurasTarea\\src\\trapezoid\\FormTrapezoid.cs",
-              "RelativeDocumentMoniker": "src\\trapezoid\\FormTrapezoid.cs",
-              "ToolTip": "D:\\ESPE\\Grafica\\FigurasTarea\\src\\trapezoid\\FormTrapezoid.cs",
-              "RelativeToolTip": "src\\trapezoid\\FormTrapezoid.cs",
-              "ViewState": "AgIAAA8AAAAAmpmZmZkNwBsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T22:34:55.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormTrapeze.cs",
-              "DocumentMoniker": "D:\\ESPE\\Grafica\\FigurasTarea\\src\\trapeze\\FormTrapeze.cs",
-              "RelativeDocumentMoniker": "src\\trapeze\\FormTrapeze.cs",
-              "ToolTip": "D:\\ESPE\\Grafica\\FigurasTarea\\src\\trapeze\\FormTrapeze.cs",
-              "RelativeToolTip": "src\\trapeze\\FormTrapeze.cs",
-              "ViewState": "AgIAABAAAAAg/////387wBcAAAArAAAAAAAAAA==",
+              "Title": "Star.cs",
+              "DocumentMoniker": "D:\\ESPE\\Grafica\\FigurasTarea\\src\\star\\Star.cs",
+              "RelativeDocumentMoniker": "src\\star\\Star.cs",
+              "ToolTip": "D:\\ESPE\\Grafica\\FigurasTarea\\src\\star\\Star.cs",
+              "RelativeToolTip": "src\\star\\Star.cs",
+              "ViewState": "AgIAABIAAADAl5mZmZkdwBUAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T22:34:06.545Z",
+              "WhenOpened": "2025-05-06T22:40:56.464Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "FormStar.cs",
               "DocumentMoniker": "D:\\ESPE\\Grafica\\FigurasTarea\\src\\star\\FormStar.cs",
               "RelativeDocumentMoniker": "src\\star\\FormStar.cs",
               "ToolTip": "D:\\ESPE\\Grafica\\FigurasTarea\\src\\star\\FormStar.cs",
               "RelativeToolTip": "src\\star\\FormStar.cs",
-              "ViewState": "AgIAABIAAABgy8zMzMwvwBcAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAABg/v////8kwB4AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T22:33:31.309Z",
               "EditorCaption": ""
