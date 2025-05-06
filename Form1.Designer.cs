@@ -40,6 +40,7 @@
             this.btnSemicircle = new System.Windows.Forms.Button();
             this.btnRhombus = new System.Windows.Forms.Button();
             this.btnStar = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnRectangle
@@ -162,11 +163,23 @@
             this.btnStar.UseVisualStyleBackColor = true;
             this.btnStar.Click += new System.EventHandler(this.btnStar_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(292, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(211, 25);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "Figuras Geométricas";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnStar);
             this.Controls.Add(this.btnRhombus);
             this.Controls.Add(this.btnSemicircle);
@@ -182,6 +195,7 @@
             this.Name = "Form1";
             this.Text = "FormShapes";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -199,6 +213,7 @@
         private System.Windows.Forms.Button btnSemicircle;
         private System.Windows.Forms.Button btnRhombus;
         private System.Windows.Forms.Button btnStar;
+        private System.Windows.Forms.Label label1;
     }
 }
 
