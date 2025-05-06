@@ -25,6 +25,7 @@ namespace FigurasTarea.src
 
         public abstract void btnCalc_Click(object sender, EventArgs e);
 
+        // Remove Only the Image
         private void btnReset_Click(object sender, EventArgs e)
         {
             this.picCanvas.Image = null;
